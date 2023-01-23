@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+h3{
+  display: inline;
+}
+.border{
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+  width:50vw;
+  height:50vw;
+  border-color: black;
+  border-width: 100px;
+  text-align: center;
+  background-image:url("https://i.ibb.co/7VBGNYQ/pen-and-paper-to-do-list.jpg");
+  background-size: cover;
+  color:black;
+
+}
+.submit{
+  background-color:green;
+  border-radius: 10px;
+  height:40px;
+  width:60px;
+}
+.input{
+  height:40px;
+}
+h3{
+  padding:40px;
+  
+}
+.bor{
+  
+  
+  background-color:bisque;
+  margin-bottom: 20px;
+
+  border-color: transparent;
+  height: 30px;
+}
+button{
+  margin-left: 50px;
+background-color: red;
+align-items: right;
+}
